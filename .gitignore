@@ -1,0 +1,13 @@
+# ビルドしてできる exe は Releases で配布するので、リポジトリには入れない
+*.exe
+*.pdb
+
+# セーブデータや個人情報を誤って入れないため
+*.sav
+*.bak
+steamid.txt
+backup/
+
+# 配布用 zip の置き場(zip は Releases に添付する)
+release/
+*.zip
